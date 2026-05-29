@@ -6,4 +6,4 @@ for i in range(l):
             temp = x[j]
             x[j] = x[j+1]
             x[j+1] = temp
-print(f"Sorted: {x}")
+print(f"Sorted list using bubble sort: {x}")
