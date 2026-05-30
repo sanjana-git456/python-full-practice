@@ -1,5 +1,5 @@
-x = list(map(int, input("Enter first list: ").split())) #1 3 5
-y = list(map(int, input("Enter second list: ").split())) #2 4 6
+x = list(map(int, input("Enter first list: ").split()))
+y = list(map(int, input("Enter second list: ").split()))
 new = []
 i = 0
 j = 0
