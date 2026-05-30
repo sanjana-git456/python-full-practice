@@ -14,8 +14,8 @@ if not found:
 
 d = {}
 for i in range(len(x)):
-    compliment = t-x[i]
-    if compliment in d:
-        print(f"Numbers at index {d[compliment]} and {i} add up to {t}")
+    complement = t-x[i]
+    if complement in d:
+        print(f"Numbers at index {d[complement]} and {i} add up to {t}")
         break
     d[x[i]] = i
