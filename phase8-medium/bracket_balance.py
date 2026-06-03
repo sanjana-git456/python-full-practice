@@ -14,3 +14,5 @@ for i in x:
         print("Wrong input")
 if s == []:
     print("Balanced")
+else:
+    print("Unbalanced")
