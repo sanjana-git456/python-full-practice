@@ -25,6 +25,6 @@ for i in range(len(m1)):
             s += m1[i][k] * m2[k][j]
         row.append(s)
     m.append(row)
-print("Multiplicaiton:")
+print("Multiplication:")
 for row in m:
     print(row)
